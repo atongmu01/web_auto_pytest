@@ -1,6 +1,7 @@
 #Author: Xqq
 import unittest
 import pytest
+import time
 from selenium import webdriver
 from WEB_Framework_V1.PageObjects.loginpage import LoginPage
 from WEB_Framework_V1.PageObjects.homepage import HomePage
