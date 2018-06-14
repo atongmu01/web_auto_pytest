@@ -1,4 +1,0 @@
-{
-  "TestCases/test_login.py::Test_Login::()::test_login_errorPassword": true,
-  "TestCases/test_login.py::Test_Login::()::test_login_ok": true
-}
