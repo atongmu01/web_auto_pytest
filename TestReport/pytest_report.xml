@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="3" time="103.718"><testcase classname="TestCases.test_invest.Test_Invest" file="TestCases\test_invest.py" line="15" name="test_invest_ok" time="79.7904441356659"></testcase><testcase classname="TestCases.test_login.Test_Login" file="TestCases\test_login.py" line="14" name="test_login_noPassword" time="10.783005714416504"></testcase><testcase classname="TestCases.test_login.Test_Login" file="TestCases\test_login.py" line="43" name="test_login_ok" time="12.537481307983398"><failure message="NameError: name &apos;init_driver&apos; is not defined">self = &lt;WEB_Framework_V1.TestCases.test_login.Test_Login object at 0x0000022E09B77940&gt;
+init_login = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;d99855f8522ea7848a038f54c2b4483d&quot;)&gt;
+
+    @pytest.mark.smoke
+    def test_login_ok(self,init_login):
+        username = login_ok_data[&quot;username&quot;]
+        password = login_ok_data[&quot;password&quot;]
+        check_msg = login_ok_data[&quot;check_msg&quot;]
+    
+        #执行login
+        lp = LoginPage(init_login)
+        lp.login(url,username,password)
+    
+        #期望结果与实际结果比对
+&gt;       hp = HomePage(init_driver)
+E       NameError: name &apos;init_driver&apos; is not defined
+
+TestCases\test_login.py:55: NameError</failure></testcase></testsuite>

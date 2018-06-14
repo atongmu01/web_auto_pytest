@@ -1,0 +1,7 @@
+[
+  "TestCases/test_invest.py::Test_Invest::()::test_invest_ok",
+  "TestCases/test_invest.py::Test_Invest::()::test_invest_fail_no100",
+  "TestCases/test_login.py::Test_Login::()::test_login_noPassword",
+  "TestCases/test_login.py::Test_Login::()::test_login_errorPassword",
+  "TestCases/test_login.py::Test_Login::()::test_login_ok"
+]
